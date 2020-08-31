@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "token",
+      "type": "com.example.gateway.config.UrlConfig",
+      "sourceType": "com.example.gateway.config.UrlConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "token.token-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.gateway.config.UrlConfig"
+    }
+  ],
+  "hints": []
+}

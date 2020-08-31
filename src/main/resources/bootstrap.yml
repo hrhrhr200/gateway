@@ -1,0 +1,23 @@
+info:
+  app:
+    name: "@project.name@"
+    description: "@project.description@"
+    version: "@project.version@"
+
+spring:
+  cloud:
+    config:
+      discovery:
+        service-id: baitao-config-server
+        enabled: true
+      name: baitao-token-service
+  profiles:
+    active: local
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery1.baitao.com:8888/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
