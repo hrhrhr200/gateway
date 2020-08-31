@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.baitao:baitao-commons:dev_sprint18_056">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baitao/baitao-commons/dev_sprint18_056/baitao-commons-dev_sprint18_056.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baitao/baitao-commons/dev_sprint18_056/baitao-commons-dev_sprint18_056-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baitao/baitao-commons/dev_sprint18_056/baitao-commons-dev_sprint18_056-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
