@@ -11,17 +11,14 @@ import java.util.concurrent.Executors;
 public class CyclicBarrierDemo {
 
     public static void main(String[] args) {
-        CyclicBarrier barrier = new CyclicBarrier(1, new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    System.out.println("等裁判吹口哨...");
-                    //这里停顿两秒更便于观察线程执行的先后顺序
-                    Thread.sleep(2000);
-                    System.out.println("裁判吹口哨->>>>>");
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+        CyclicBarrier barrier = new CyclicBarrier(1, () -> {
+            try {
+                System.out.println("等裁判吹口哨...");
+                //这里停顿两秒更便于观察线程执行的先后顺序
+                Thread.sleep(2000);
+                System.out.println("裁判吹口哨->>>>>");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         });  //①
         Runner runner1 = new Runner(barrier, "张三");

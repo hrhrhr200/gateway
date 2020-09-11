@@ -1,12 +1,42 @@
 {
   "groups": [
     {
+      "name": "spring.datasource",
+      "type": "com.example.gateway.datasource.DataSourceProperties",
+      "sourceType": "com.example.gateway.datasource.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.hikari",
+      "type": "com.example.gateway.datasource.DataSourceProperties$Hikari",
+      "sourceType": "com.example.gateway.datasource.DataSourceProperties"
+    },
+    {
       "name": "token",
       "type": "com.example.gateway.config.UrlConfig",
       "sourceType": "com.example.gateway.config.UrlConfig"
     }
   ],
   "properties": [
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.gateway.datasource.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.gateway.datasource.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.gateway.datasource.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.example.gateway.datasource.DataSourceProperties"
+    },
     {
       "name": "token.token-url",
       "type": "java.lang.String",
