@@ -3,9 +3,11 @@ package com.example.gateway.client;
 import com.dtflys.forest.config.ForestConfiguration;
 import com.dtflys.forest.ssl.SSLUtils;
 import com.dtflys.forest.utils.RequestNameValue;
-import com.sun.tools.javac.util.List;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by hrhrh on 2020/8/17 14:08
@@ -36,7 +38,8 @@ public class AutoForestConfiguration {
 
         //设置全局header
         RequestNameValue r = new RequestNameValue("merchId","2", false);
-        List<RequestNameValue> valueList = List.of(r);
+        List<RequestNameValue> valueList = new ArrayList<>(1);
+        valueList.add(r);
         configuration.setDefaultHeaders(valueList);
         return configuration;
     }
