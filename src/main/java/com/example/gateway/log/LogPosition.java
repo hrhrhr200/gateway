@@ -1,7 +1,7 @@
 package com.example.gateway.log;
 
 /**
- * @author LiuJiaPeng
+ * @author Huangrui
  * @version 1.0
  * @description TODO
  * @date 2019-09-10 10:13

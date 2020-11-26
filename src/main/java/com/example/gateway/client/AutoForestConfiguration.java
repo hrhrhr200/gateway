@@ -3,6 +3,7 @@ package com.example.gateway.client;
 import com.dtflys.forest.config.ForestConfiguration;
 import com.dtflys.forest.ssl.SSLUtils;
 import com.dtflys.forest.utils.RequestNameValue;
+import lombok.Data;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * Created by hrhrh on 2020/8/17 14:08
  */
 @Configuration
+@Data
 public class AutoForestConfiguration {
 
     @Bean(name = "forest")

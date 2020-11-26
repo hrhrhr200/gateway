@@ -15,7 +15,7 @@ import java.io.IOException;
 
 /**
  * @Description Web工具类
- * @Author LiuJiaPeng
+ * @Author Huangrui
  * @Date 2018/9/11 15:34
  * @Version 1.0
  */

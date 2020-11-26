@@ -3,7 +3,7 @@ package com.example.gateway.log;
 import java.lang.annotation.*;
 
 /**
- * @author LiuJiaPeng
+ * @author Huangrui
  * @version 1.0
  * @description 日志输出
  * @date 2019-09-02 11:10

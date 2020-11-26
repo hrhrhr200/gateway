@@ -15,7 +15,7 @@ import org.springframework.validation.BindingResult;
 import java.util.Arrays;
 
 /**
- * @author LiuJiaPeng
+ * @author Huangrui
  * @version 1.0
  * @description 可配合logRecord注解实现是否需要打印/不同级别打印
  * @date 2019-09-02 10:24
